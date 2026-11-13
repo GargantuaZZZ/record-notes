@@ -12,13 +12,20 @@
 html{-webkit-text-size-adjust:100%}summary{min-height:48px}.jump{display:inline-flex;align-items:center;min-height:44px}dialog img{max-height:calc(90dvh - 52px)}dialog button{min-height:44px}nav a{display:inline-flex;align-items:center;min-height:44px}
 @media(max-width:740px){.hero>figure{grid-row:1}.hero{padding-top:22px}.cover{max-height:54svh;box-shadow:0 8px 19px #36281426}.switch button,#zoom{min-height:44px;padding-inline:12px}.cta{min-height:46px}.facts div{overflow-wrap:anywhere}.section p{line-height:1.8}footer{align-items:baseline}footer a{white-space:nowrap}}
 @media(max-width:360px){nav{gap:8px}.brand{letter-spacing:.04em}figcaption{column-gap:4px}.switch button,#zoom{padding-inline:8px}}
+
+.track{scroll-margin-top:16px;padding:16px 5px;border-bottom:1px solid var(--rule);max-width:77ch}
+.track:last-child{border-bottom:0}.track::marker{color:var(--olive);font-weight:750}
+.track h3{font-family:inherit;font-size:1rem;line-height:1.5}.track h3 small{font-weight:400}
+.track .cue{font-weight:700;color:var(--wine);font-size:.9rem;margin:5px 0 2px}
+.track .analysis{margin:0;color:var(--muted)}.track:target{background:#eee8da}
+@media(max-width:360px){header{gap:6px}nav a,.brand{white-space:nowrap}}
 </style>
 </head>
 <body id="top">
-<header><a class="brand" href="#top"><span>◉</span>唱片手记</a><nav aria-label="页面导航"><a href="#people">人物</a><a href="#guide">导听</a><a href="#tracks">曲目</a></nav></header>
+<header><a class="brand" href="#top"><span>◉</span>唱片手记</a><nav aria-label="页面导航"><a href="#people">人物</a><a href="#guide">导听</a><a href="#tracks">逐首赏析</a></nav></header>
 <main>
 <section class="hero" aria-labelledby="title">
-<div><div class="eyebrow">私人唱片档案 / 001</div><h1 id="title">莫扎特<span>管风琴与乐队</span></h1><p class="original" lang="de">Werke für Orgel und Orchester</p><p class="lede">前几面是萨尔茨堡弥撒里的短篇，翻到最后一面，却遇见两首阴郁而宏阔的 F 小调幻想曲。听听同一位演奏家如何让管风琴从托住弦乐，变成独自撑起整首作品。</p><a class="cta" href="#guide">从四首作品开始听 ↓</a></div>
+<div><div class="eyebrow">私人唱片档案 / 001</div><h1 id="title">莫扎特<span>管风琴与乐队</span></h1><p class="original" lang="de">Werke für Orgel und Orchester</p><p class="lede">前几面是萨尔茨堡弥撒里的短篇，翻到最后一面，却遇见两首阴郁而宏阔的 F 小调幻想曲。听听同一位演奏家如何让管风琴从托住弦乐，变成独自撑起整首作品。</p><a class="cta" href="#tracks">按唱片顺序开始听 ↓</a></div>
 <figure><img class="cover" id="cover" src="assets/mozart-front.jpg" alt="唱片正面：绿色莫扎特字样，右侧是韦尔滕堡修道院祭坛照片"><figcaption><span id="caption" aria-live="polite">收藏实拍 · 封套正面</span><span class="switch" role="group" aria-label="选择封套面"><button type="button" data-face="front" aria-pressed="true">正面</button><button type="button" data-face="back" aria-pressed="false">背面</button></span><button id="zoom" type="button">放大查看</button></figcaption></figure>
 </section>
 <dl class="facts"><div><dt>介质</dt><dd>双张黑胶 · 四面</dd></div><div><dt>封套标识</dt><dd>EMI Electrola / Erato</dd></div><div><dt>目录编号</dt><dd>1 C 187-30 853/54</dd></div><div><dt>背面录音版权</dt><dd>℗ 1973 Éditions Costallat</dd></div></dl>
@@ -31,39 +38,39 @@ html{-webkit-text-size-adjust:100%}summary{min-height:48px}.jump{display:inline-
 </div></section>
 <section class="section" id="guide"><div class="serial">02 / LISTENING NOTES</div><h2>四首作品，四个听点</h2><p class="intro">可以按下列顺序跳着听。每条都标了唱片面和该面顺序，方便在唱机旁对照。</p>
 <div class="guide">
-<article><span class="tag">01 / 听弦乐开口</span><h3>降 E 大调教堂奏鸣曲 K.67</h3><p>少见的行板。先听弦乐短句怎样起落，再把注意力移到低音：管风琴融入合奏时，往往更容易听见和声的支撑，而不是一条独立的旋律。</p><a class="jump" href="#b">第 2 面 · 第 2 首 ↓</a></article>
-<article><span class="tag">02 / 听管风琴接过主角</span><h3>C 大调教堂奏鸣曲 K.336</h3><p>与 K.67 对照，管风琴在这里有明显的独奏角色。听乐队合奏与键盘花句交接，尤其留意临近结尾的华彩：短短一首教堂奏鸣曲，已经有了小协奏曲的味道。</p><a class="jump" href="#b">第 2 面 · 第 1 首 ↓</a></article>
-<article><span class="tag">03 / 听装饰音</span><h3>F 大调行板 K.616</h3><p>这一面最后，乐队退场。沿着管风琴上方的歌唱旋律听，留意装饰音怎样围绕长线条打转。试着先哼主旋律，再听装饰音，你会更容易听出句子的方向。</p><a class="jump" href="#c">第 3 面 · 第 5 首 ↓</a></article>
-<article><span class="tag">04 / 听声部追逐</span><h3>第二号 F 小调幻想曲 K.608</h3><p>开头的庄重节奏过后，留意同一主题如何从一个声部传到另一个声部。中间行板放松了紧张感；快段回归时，再听那些交织的线条如何把音乐推向结尾。还可以接着听 K.594：它让慢板在结尾重现，像把开头的阴影重新合上。</p><a class="jump" href="#d">第 4 面 · 第 1 首 ↓</a></article>
+<article><span class="tag">01 / 听弦乐开口</span><h3>降 E 大调教堂奏鸣曲 K.67</h3><p>少见的行板。先听弦乐短句怎样起落，再把注意力移到低音：管风琴融入合奏时，往往更容易听见和声的支撑，而不是一条独立的旋律。</p><a class="jump" href="#k67">第 2 面 · 第 2 首 ↓</a></article>
+<article><span class="tag">02 / 听管风琴接过主角</span><h3>C 大调教堂奏鸣曲 K.336</h3><p>与 K.67 对照，管风琴在这里有明显的独奏角色。听乐队合奏与键盘花句交接，尤其留意临近结尾的华彩：短短一首教堂奏鸣曲，已经有了小协奏曲的味道。</p><a class="jump" href="#k336">第 2 面 · 第 1 首 ↓</a></article>
+<article><span class="tag">03 / 听装饰音</span><h3>F 大调行板 K.616</h3><p>这一面最后，乐队退场。沿着管风琴上方的歌唱旋律听，留意装饰音怎样围绕长线条打转。试着先哼主旋律，再听装饰音，你会更容易听出句子的方向。</p><a class="jump" href="#k616">第 3 面 · 第 5 首 ↓</a></article>
+<article><span class="tag">04 / 听声部追逐</span><h3>第二号 F 小调幻想曲 K.608</h3><p>开头的庄重节奏过后，留意同一主题如何从一个声部传到另一个声部。中间行板放松了紧张感；快段回归时，再听那些交织的线条如何把音乐推向结尾。还可以接着听 K.594：它让慢板在结尾重现，像把开头的阴影重新合上。</p><a class="jump" href="#k608">第 4 面 · 第 1 首 ↓</a></article>
 </div></section>
-<section class="section" id="tracks"><div class="serial">03 / SIDE BY SIDE</div><h2>四面曲目表</h2><p class="intro">按封套背面顺序抄录；点击唱片面可展开。K. 与原封套的 KV 都指克歇尔目录号。</p>
+<section class="section" id="tracks"><div class="serial">03 / SIDE BY SIDE</div><h2>四面曲目与逐首赏析</h2><p class="intro">按封套顺序排列。把唱针放到相应一面，展开这一面，就可以从第一首往下读。每首先给一个听点，再说明到哪里、听什么。K. 与封套的 KV 都是克歇尔目录号。</p>
 <details id="a" open><summary>第 1 面<span>教堂奏鸣曲</span></summary><ol>
-<li>第 16 号 · C 大调 · K.329 <small>Allegro</small></li>
-<li>第 5 号 · F 大调 · K.145 <small>Allegro</small></li>
-<li>第 3 号 · D 大调 · K.69 <small>Allegro</small></li>
-<li>第 9 号 · G 大调 · K.241 <small>Allegro</small></li>
-<li>第 8 号 · A 大调 · K.225 <small>Allegro</small></li>
-<li>第 11 号 · D 大调 · K.245 <small>Allegro</small></li>
+<li id="k329" class="track"><h3>第 16 号 · C 大调 · K.329 <small>Allegro</small></h3><p class="cue">听全套里最隆重的开场</p><p class="analysis">小号和定音鼓给 C 大调加上了节庆的色彩。先记住全乐队齐奏的轮廓，再等管风琴的快速音群浮出来：前者靠重音和声势划分句子，后者用连续的音符穿过这些重音。同样是管风琴独奏突出的作品，可拿它和第 2 面的 K.336 比：这里最鲜明的是键盘与大编制之间的反差。</p></li>
+<li id="k145" class="track"><h3>第 5 号 · F 大调 · K.145 <small>Allegro</small></h3><p class="cue">听短句怎样接成一口气</p><p class="analysis">从 K.329 转到这首时，把耳朵从齐奏的声势收回到第一小提琴。试着只跟上声部，听一句末尾怎样引出下一句；再跟一遍低音，找出哪里已经有了落脚感、哪里仍在向前。篇幅虽短，几次暂歇和重新起步就足以让音乐有方向。</p></li>
+<li id="k69" class="track"><h3>第 3 号 · D 大调 · K.69 <small>Allegro</small></h3><p class="cue">听快板里的标点</p><p class="analysis">用低音数拍，再听上面的短动机怎样在拍点之间活动。快速进行中的收束像一句话的逗号，随后弦乐又把势头接起来。它和同面的 K.245 都是 D 大调，连听时可以比较：同一个调，句尾给人的停顿感并不一样。</p></li>
+<li id="k241" class="track"><h3>第 9 号 · G 大调 · K.241 <small>Allegro</small></h3><p class="cue">听高声部与低音的分工</p><p class="analysis">把明亮的高声部当成说话的人，把低音当成脚步。旋律可以在一句里转弯，低音却还在向前，直到两者在终止处一起落地。听这一首时，试着只记最初那句的轮廓，等熟悉的句法重新出现，会更容易把握全曲。</p></li>
+<li id="k225" class="track"><h3>第 8 号 · A 大调 · K.225 <small>Allegro</small></h3><p class="cue">听旋律怎样越过小节线</p><p class="analysis">不妨先跟着第一小提琴哼，把重音后继续往前的音也连起来。这样听，快板不会变成一串等重的拍子。再听低音的支撑，留意上声部唱得轻巧时，下方如何把调性变化和收束交代清楚。</p></li>
+<li id="k245" class="track"><h3>第 11 号 · D 大调 · K.245 <small>Allegro</small></h3><p class="cue">听结束感是怎样积累的</p><p class="analysis">把它与前面的 K.69 连听。两首都是 D 大调快板，这次把注意力放在乐句的后半截：短音型还在往前推，低音与和声已在为落点铺路。试着分辨一次段落内的暂歇与最后真正停下来的区别。</p></li>
 </ol></details>
 <details id="b"><summary>第 2 面<span>教堂奏鸣曲</span></summary><ol>
-<li>第 17 号 · C 大调 · K.336 <small>Allegro</small></li>
-<li>第 1 号 · 降 E 大调 · K.67 <small>Andante</small></li>
-<li>第 4 号 · D 大调 · K.144 <small>Allegro</small></li>
-<li>第 4 号 · D 大调 · K.144 <small>Allegro · 封套重复印刷</small></li>
-<li>第 12 号 · C 大调 · K.263 <small>Allegro</small></li>
-<li>第 2 号 · 降 B 大调 · K.68 <small>Allegro</small></li>
-<li>第 7 号 · F 大调 · K.224 <small>Allegro con spirito</small></li>
+<li id="k336" class="track"><h3>第 17 号 · C 大调 · K.336 <small>Allegro</small></h3><p class="cue">听一首微型协奏曲</p><p class="analysis">先听乐队定下基调，再听管风琴用跑动的音群接过主角。最容易认出的路标是近尾声的独奏华彩：合奏的推进暂时让位给键盘，随后乐队回来收束。紧接着的 K.67 会把管风琴重新放回伴奏的位置。</p></li>
+<li id="k67" class="track"><h3>第 1 号 · 降 E 大调 · K.67 <small>Andante</small></h3><p class="cue">听行板里的呼吸</p><p class="analysis">速度放慢后，旋律每次抬起和落下都更清楚。沿着弦乐听完一个完整乐句，再把注意力转到下面的低音和和声：管风琴的支撑融在织体里，适合用来对照刚刚走到前台的 K.336。</p></li>
+<li id="k144" class="track"><h3>第 4 号 · D 大调 · K.144 <small>Allegro</small></h3><p class="cue">听两把小提琴构成的层次</p><p class="analysis">先追上方跑动的线条，再留意它下面较近的那一层，别把弦乐听成一个声部。快板的轻快来自各声部都在活动，而句尾的合拢让这些线条暂时聚到一起。</p></li>
+<li id="k212" class="track"><h3>第 4 号 · D 大调 · K.144 <small>Allegro · 封套重复印刷</small></h3><p class="cue">备查：降 B 大调教堂奏鸣曲 K.212</p><p class="analysis">若盘标或实际播放确认这首在盘上，可用它与同面的 K.68 对照。同为降 B 大调快板，先听小提琴短句的起落，再换到低音，找出和声换向和回到主调时的落脚感。此条不代表已确认第 4 首就是 K.212。</p></li>
+<li id="k263" class="track"><h3>第 12 号 · C 大调 · K.263 <small>Allegro</small></h3><p class="cue">听小号怎样为合奏加亮</p><p class="analysis">和前几首小编制曲目相比，这里原谱加入两支小号。听齐奏时，可以把小号造成的明亮轮廓和弦乐的运动分开；它们在音响上为合奏加亮，也让乐句落点更有分量。再和第 1 面 K.329 的小号加定音鼓做比较。</p></li>
+<li id="k68" class="track"><h3>第 2 号 · 降 B 大调 · K.68 <small>Allegro</small></h3><p class="cue">听短篇如何一气呵成</p><p class="analysis">先记下开头的弦乐语气，再听中途的停顿到底是句号，还是把音乐推向下一句的逗号。前一首 K.263 的编制比较显眼，到了这里可以改听较精简的弦乐和低音怎样完成同样清楚的起、承、收。</p></li>
+<li id="k224" class="track"><h3>第 7 号 · F 大调 · K.224 <small>Allegro con spirito</small></h3><p class="cue">听 con spirito 的劲头</p><p class="analysis">封套写着「有精神的快板」。别只跟速度，试着跟住短音的起音和重音，感受一次次向前弹起的劲头；再听句尾是否仍保有同样的弹性。放在这面的最后，它的活力来自发音和推进。</p></li>
 </ol></details>
 <details id="c"><summary>第 3 面<span>教堂奏鸣曲与行板</span></summary><ol>
-<li>第 15 号 · C 大调 · K.328 <small>Allegro</small></li>
-<li>第 10 号 · F 大调 · K.244 <small>Allegro</small></li>
-<li>第 14 号 · C 大调 · K.278 <small>Allegro</small></li>
-<li>第 13 号 · G 大调 · K.274 <small>Allegro</small></li>
-<li>F 大调行板 · K.616 <small>Andante</small></li>
+<li id="k328" class="track"><h3>第 15 号 · C 大调 · K.328 <small>Allegro</small></h3><p class="cue">听没有铜管的大调亮度</p><p class="analysis">第 3 面用 C 大调开场，可以和第 1 面同为 C 大调的 K.329 对听。这里把注意力放在弦乐清楚的起音，以及上方旋律如何从低音的支撑上亮起来。无需等一个宏大的高潮，明亮感就在短句的推进里。</p></li>
+<li id="k244" class="track"><h3>第 10 号 · F 大调 · K.244 <small>Allegro</small></h3><p class="cue">听管风琴怎样嵌进合奏</p><p class="analysis">留意键盘线条怎样从弦乐中浮出，又怎样交回给合奏。尤其可听弦乐句尾和键盘接话处的衔接。与 K.336 的华彩相比，这首更适合听键盘在小编制里的来回应答。</p></li>
+<li id="k278" class="track"><h3>第 14 号 · C 大调 · K.278 <small>Allegro</small></h3><p class="cue">听音色如何分层</p><p class="analysis">这是有双簧管、小号与定音鼓参与的 C 大调奏鸣曲。可以先找双簧管偏圆的吹奏声，再听小号的亮度和定音鼓在低处给出的重音。较丰富的配器让礼仪感更鲜明，弦乐仍在里面带着乐句向前走。</p></li>
+<li id="k274" class="track"><h3>第 13 号 · G 大调 · K.274 <small>Allegro</small></h3><p class="cue">听最后一首合奏的轻重</p><p class="analysis">从 K.278 的丰富配器退回小编制，听小提琴怎样用轻起音和明确的落点维持活力。顺着盘面继续到 K.616，比较弦乐的弓头怎样消失，换成管风琴一人持续送出的气息。</p></li>
+<li id="k616" class="track"><h3>F 大调行板 · K.616 <small>Andante</small></h3><p class="cue">听装饰音背后的长线</p><p class="analysis">这是为机械风琴写的行板，这里由阿兰独奏。先在心里哼上方的主旋律，把细碎的装饰音当作绕行；再听这些绕行怎样延迟旋律的落点。下方声部即使在动，仍托住上声部从一句唱到下一句。</p></li>
 </ol></details>
 <details id="d"><summary>第 4 面<span>两首幻想曲</span></summary><ol>
-<li>第二号 F 小调幻想曲 · K.608 <small>Allegro · Andante · Finale</small></li>
-<li>第一号 F 小调幻想曲 · K.594 <small>Adagio · Allegro · Adagio</small></li>
+<li id="k608" class="track"><h3>第二号 F 小调幻想曲 · K.608 <small>Allegro · Andante · Finale</small></h3><p class="cue">听赋格怎样把紧张感带回来</p><p class="analysis">快段的强烈开头之后，听同一个主题从不同高度相继进入；前一个声部会继续走，新的声部在它旁边加入，这就是可以用耳朵辨认的赋格写法。中间较明朗的行板给耳朵留了空间。末段重回快板时，留意主题重现后多条线怎样在同一时间彼此咬合。</p></li>
+<li id="k594" class="track"><h3>第一号 F 小调幻想曲 · K.594 <small>Adagio · Allegro · Adagio</small></h3><p class="cue">听同一片阴影在尾声回来</p><p class="analysis">全曲可以按「慢—快—慢」听。开头慢板的节奏和和声显得沉重，中段快板的流动把音乐从静止中推开；最后慢板回来时，试着想起开头的重量。和 K.608 相反，这首由慢段框住全曲，速度回落本身就是结尾最醒目的事件。</p></li>
 </ol></details>
 <aside class="note"><strong>封套疑点：</strong>封面标称 17 首教堂奏鸣曲，背面第 2 面连续两次印出「第 4 号，D 大调，KV 144」，未列通行目录中的「第 6 号，降 B 大调，K.212」。这里照录封套，实际曲目有待用盘标或播放核对。</aside>
 </section>
@@ -80,6 +87,8 @@ document.querySelectorAll('[data-face]').forEach(b=>b.addEventListener('click',(
  document.querySelectorAll('[data-face]').forEach(btn=>btn.setAttribute('aria-pressed',String(btn===b)));
 }));
 document.querySelector('#zoom').addEventListener('click',()=>{large.src=cover.src;large.alt=cover.alt;viewer.showModal()});
-document.querySelectorAll('.jump').forEach(a=>a.addEventListener('click',()=>{document.querySelector(a.hash).open=true}));
+function revealTrack(id){const track=document.getElementById(id.slice(1));if(track?.classList.contains('track')){track.closest('details').open=true;return track}}
+document.querySelectorAll('.jump').forEach(a=>a.addEventListener('click',()=>revealTrack(a.hash)));
+const initialTrack=revealTrack(location.hash);if(initialTrack)requestAnimationFrame(()=>initialTrack.scrollIntoView());
 </script>
 </body></html>
