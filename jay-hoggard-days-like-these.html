@@ -25,7 +25,7 @@ h1 .year{color:var(--wine);font-family:Georgia,serif;font-size:1.15em}.credits{f
 <main><div class="series"><a href="./">001 莫扎特</a><a href="tigers-1982.html">002 The Tigers</a><a href="black-contemporary.html">003 Black Contemporary Super Hits</a><a href="pcock-incognito.html">004 P’cock</a><strong>005 Jay Hoggard</strong></div>
 <section class="hero">
 <div><div class="eyebrow">私人唱片档案 / 005</div><h1 class="black-title">Jay Hoggard<span>Days Like These</span></h1><p class="original">Arista / GRP · 日本版 25RS-55</p><p class="lede">同一双琴槌，可以打出清楚的节奏，也可以让旋律悬在空气里。Jay Hoggard 的首张个人专辑在电颤音琴与原声颤音琴之间换色，从带打击乐独奏的融合爵士，一路听到有人声、管乐和弦乐的同名尾曲。</p><a class="cta" href="#tracks">按唱片顺序开始听 ↓</a></div>
-<figure><img class="cover" id="cover" src="assets/hoggard-front.jpg" alt="封套正面：Jay Hoggard 倚在砖墙前"><figcaption><span id="caption" aria-live="polite">收藏实拍 · 封套正面</span><span class="switch black-gallery" role="group" aria-label="选择唱片照片"><button data-face="front" aria-pressed="true">正面</button><button data-face="back" aria-pressed="false">背面</button><button data-face="a" aria-pressed="false">A 面内页</button><button data-face="b" aria-pressed="false">B 面内页</button></span><button id="zoom" type="button">放大</button></figcaption></figure>
+<figure><img class="cover" id="cover" src="assets/hoggard-front.jpg" alt="封套正面：Jay Hoggard 倚在砖墙前"><figcaption><span id="caption" aria-live="polite">收藏实拍 · 封套正面</span><span class="switch black-gallery" role="group" aria-label="选择唱片照片"><button data-face="front" aria-pressed="true">正面</button><button data-face="back" aria-pressed="false">背面</button><button data-face="a" aria-pressed="false">A 面内页</button><button data-face="b" aria-pressed="false">B 面内页</button><button type="button" data-face="jp" aria-pressed="false">日文访谈</button></span><button id="zoom" type="button">放大</button></figcaption></figure>
 </section>
 <dl class="facts"><div><dt>介质</dt><dd>单张黑胶 · 两面七首</dd></div><div><dt>封套标识</dt><dd>Arista / GRP</dd></div><div><dt>目录编号</dt><dd>25RS-55</dd></div><div><dt>封套年份与产地</dt><dd>℗ © 1979 · 日本制造</dd></div></dl>
 <section id="people" class="section"><div class="serial">01 / PEOPLE</div><h2>演奏、作曲与制作</h2><div class="people">
@@ -38,7 +38,7 @@ h1 .year{color:var(--wine);font-family:Georgia,serif;font-size:1.15em}.credits{f
 </main><footer><span>唱片手记 / 005 · 封套与内页来自你的收藏实拍</span><a href="#top">回到封面 ↑</a></footer>
 <dialog id="viewer" aria-label="唱片照片放大图"><form method="dialog"><button>关闭 ×</button></form><img id="large" alt=""></dialog>
 <script>
-const labels={front:'封套正面',back:'封套背面',a:'A 面演奏署名与解说',b:'B 面演奏与制作署名'};
+const labels={front:'封套正面',back:'封套背面',a:'A 面演奏署名与解说',b:'B 面演奏与制作署名',jp:'日本版附页：曲目时长与 Jay Hoggard 访谈'};
 const cover=document.querySelector('#cover'),viewer=document.querySelector('#viewer'),large=document.querySelector('#large');
 const buttons=[...document.querySelectorAll('[data-face]')];
 buttons.forEach(b=>b.addEventListener('click',()=>{
